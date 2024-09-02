@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         mbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(Intent.ACTION_VIEW, Uri.fromParts("sms","2596118700",null));
+                Intent intent =new Intent(Intent.ACTION_VIEW, Uri.fromParts("sms","1234567890",null));
                 intent.putExtra("sms_body","SMS using Intent");
                 startActivity(intent);
             }
